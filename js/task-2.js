@@ -23,4 +23,7 @@ images.forEach((image) => {
   img.classList.add("gallery-item");
   listItem.append(img);
   galleryList.append(listItem);
+  img.style.display = "block";
+  img.style.width = "100%";
+  img.style.paddingBottom = "10px";
 });
